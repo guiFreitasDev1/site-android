@@ -1,0 +1,281 @@
+/*Configurações globais*/
+
+@charset "UTF-8";
+@font-face {
+    font-family: 'android' ;
+    src: url('../img/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing : border-box;
+}
+a.externo::after{
+    content: '\00A0\1F517';
+}
+/*HEADER*/
+
+.heading{
+    background-image: linear-gradient(to top, rgb(0, 92, 0), rgb(179, 252, 179));
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    
+}
+.H1header{
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+    margin: auto;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-align: center;
+}
+.H2header{
+    font-size: 1.5em;
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+.NavMenu{
+    background-color:rgb(0, 92, 0);
+    height: 40px;
+    box-shadow: 1px 20px 7px rgba(0, 0, 0, 0.103);
+    
+}
+.LiMenu, .AMenu{
+    display:inline-block;
+    text-decoration:none;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+    transition-duration: 0.5s ;
+}
+
+.LiMenu a:hover{
+    background-color: rgba(159, 241, 196, 0.171);
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+/*HEADER*/
+
+/*Android*/
+body{
+    background-color: bisque;
+}
+.SecAndroid{
+    width: 1100px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.H1historia{
+    font-family: android;
+    padding: 10px;
+    color:rgb(4, 119, 56);
+}
+.Phistoria{
+    text-indent: 1.5em;
+}
+.textverde{
+    color:rgb(3, 92, 43);
+}
+.H2historia{
+    background-image: linear-gradient(to right, rgb(181, 255, 181), rgb(255, 255, 255));
+    margin: 10px;
+    font-family: android;
+    font-size: 1em;
+    color: rgb(44, 141, 44);
+    text-indent: 1.5em;
+}
+.Phistoria2{
+    text-indent: 1.5em;
+}
+.imgAndroid{
+    margin: auto;
+    display: block;
+}
+.SecAndroid a {
+    background-color: rgb(140, 235, 140);
+    text-decoration: none;
+    color:rgb(3, 92, 43);
+    font-weight: bold;
+    padding: 2px 6px;
+}
+.SecAndroid a:hover{
+    text-decoration: underline;
+    color: rgb(30, 148, 30);
+}
+
+/*Android*/
+/*Novo mascote*/
+
+
+.H2novoMascote{
+    background-image: linear-gradient(to right, rgb(181, 255, 181), rgb(255, 255, 255));
+    margin: 10px;
+    text-indent: 1.5em;
+    font-family: android;
+    font-size: 1em;
+    color: rgb(44, 141, 44);
+}
+.PnovoMascote{
+    text-indent: 1.5em;
+    margin-top: 20px;
+}
+.imgIrina{
+   width: 100%;
+   margin-top: 20px;
+}
+
+.PbugDroid, .P2bugDroid{
+    text-indent: 1.5em;
+    margin-top: 20px;
+}
+.bugDroid{
+    margin: auto;
+    display: block;
+}
+.video{
+    background-color: rgb(0, 68, 0);
+    padding:20px;
+    padding-bottom: 59%;
+    position:relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+/*Novo mascote*/
+/*LISTAS*/
+
+.listas{
+    background-color:rgb(181, 255, 181) ;
+    width: 700px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.432);
+    
+}
+.headLista{
+    background-color: rgb(0, 77, 0);
+    border-radius: 10px 10px 0px 0px;
+}
+.h1HeadListas{
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
+
+}
+.p1Listas{
+    text-indent: 1.5em;
+    padding: 10px;
+}
+ .divListas{
+    margin: auto;
+}
+.UlListas1{
+    display: inline-block;
+    margin-top: 10px;
+    list-style-position: inside;
+    list-style: none;
+    padding: 20px;
+    columns: 2;
+}
+
+
+
+abbr{
+    text-decoration: underline;
+}
+
+footer{
+    display: block;
+    background-color: rgb(1, 85, 1);
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+
+}
+footer  a {
+    text-decoration: none;
+    color: rgb(61, 212, 11);
+    font-weight: bold;
+    
+}
+footer a:hover{
+    background-color:rgb(2, 119, 17); 
+    border-radius: 5px;
+    text-decoration: underline;
+    padding: 3px;
+
+}
+
+/*LISTAS*/
+/*RESPOSIVIDADE*/
+@media (max-width: 1280px){
+    .SecAndroid{
+        width: 100%;
+    }
+    .imgAndroid{
+        width: 100%;
+    }
+    .H1header{
+        font-size: 2em;
+        
+    }
+    .H2header{
+        font-size: 1em;
+    }
+}
+@media (max-width: 730px){
+    .video{
+        width: 100%;
+        height: 350px;
+    }
+    .H1header{
+        font-size: 1.5em;
+        
+    }
+    .H2header{
+        font-size: 1em;
+    }
+    .listas{
+        width: 100%;
+    }
+}
+
+@media (max-width: 452px){
+    .H1header{
+        font-size: 1em;
+       
+    }
+    .H2header{
+        font-size: 1em;
+    }
+    .LiMenu{
+        padding: 0px;
+    }
+   .listas{
+       font-size: 11px;
+   }
+   
+}
